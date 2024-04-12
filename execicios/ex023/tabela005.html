@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque{
+            background-color: lawngreen;
+        }
+
+        col.cnome{
+            background-color: lawngreen;
+        }
+
+        .amarelo{
+            background-color: yellow;
+        }
+        
+        .vermelho{
+            background-color: red;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class=" vermelho">
+        </colgroup>
+        <caption>Cadastro do bolsa família</caption>
+        <tr> 
+          <th scope="col">Nome</th>
+          <th scope="col">Sexo</th>
+          <th scope="col">Idade</th>
+          <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+           <td>Ana Maria</td>
+           <td>F</td>
+           <td>25</td>
+           <td>Empregada</td>
+        </tr>
+
+        <tr>
+            <td>Francisco</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Agricultor</td>
+         </tr>
+
+         <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Pedreiro</td>
+         </tr>
+
+         <tr>
+            <td>Francisca</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Lavadora de roupa</td>
+         </tr>
+    </table>
+</body>
+</html>
